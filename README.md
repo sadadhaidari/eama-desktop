@@ -10,14 +10,19 @@ This version contains interactive sample data. It does not use a camera, recogni
 
 ## Interface
 
-- Dark and light themes, text size, contrast, and distance units.
+- Neutral dark and light themes with colored data visuals.
 - Current viewing distance with preferred bounds.
 - Four session charts: viewing distance, time in each posture, event frequency, and event duration.
 - Clickable chart points, slices, and bars with filtered event history.
-- Calibration review, response presets, reminder controls, and feedback previews.
+- Three-step calibration: position capture, readability, and review.
+- Immediate settings changes, response presets, reminders, and indicator brightness.
 - Operating-state examples for tracking, movement, pause, recovery, and faults.
 
-![EAMA overview](overview.png)
+
+
+## Interface Design
+
+The app follows [Microsoft's settings guidance](https://learn.microsoft.com/en-us/windows/apps/design/app-settings/guidelines-for-app-settings) and [Apple's color guidance](https://developer.apple.com/design/human-interface-guidelines/color?changes=_5_2): familiar controls, immediate feedback, consistent category colors, and concise labels. Detailed rationale and sources are in `desktop/DESIGN-NOTES.md` in the source archive.
 
 ## Small Windows Package
 
@@ -54,3 +59,4 @@ The self-test opens the compiled application, checks navigation, chart drill-dow
 
 - [Microsoft: static WebView2 loader](https://learn.microsoft.com/en-us/microsoft-edge/webview2/how-to/static)
 - [Microsoft: distribute an application with WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution)
+
